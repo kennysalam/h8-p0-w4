@@ -27,8 +27,7 @@ function cariModus(arr) {
     var modus;
     for (var i = 0; i < temp.length; i++) {
         for (var j = 0; j < temp.length; j++) {
-            if (temp[i].length == temp[j].length && i !== j && temp[i].length > 1 && temp[j].length > 1) {
-            } else if (temp[i].length > temp[j].length && i !== j) {
+            if (temp[i].length > temp[j].length && i !== j) {
                 modus = temp[i];
             }
         }
